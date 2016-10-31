@@ -40,7 +40,7 @@ $(document).ready(
 
       
     		
-    		//$( "#todoList" ).disableSelection();
+    	//$( "#todoList" ).disableSelection();
       
     }
 );
