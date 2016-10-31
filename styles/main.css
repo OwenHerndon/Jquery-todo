@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+body {
+  background-color: black;
+  color: grey; }
+  body h1 {
+    text-align: center; }
+
+.input-nav {
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+  background-color: grey; }
+
+#inprogress {
+  border: 2px solid white;
+  border-radius: 10px 10px 10px 10px;
+  width: 50%;
+  color: white;
+  background-color: grey; }
+  #inprogress h3 {
+    text-align: center;
+    color: white; }
+  #inprogress ol {
+    color: white; }
+
+#completed {
+  margin-top: 5px;
+  border: 2px solid white;
+  border-radius: 10px 10px 10px 10px;
+  width: 50%;
+  color: white;
+  background-color: grey; }
+  #completed h3 {
+    text-align: center;
+    color: white; }
+  #completed ol {
+    color: white; }
+
+ol {
+  padding-left: 20px; }
+
+ol li {
+  padding: 5px;
+  color: white; }
+
+ol li:nth-child(even) {
+  background: grey; }
+
+.strike {
+  text-decoration: line-through; }
+
+.textLarge {
+  font-size: 200%; }
+
+.editButton {
+  position: fixed;
+  right: 26%;
+  color: black; }
+
+.completeButton {
+  position: fixed;
+  right: 29%;
+  color: black; }
+
+li:hover {
+  cursor: pointer; }
