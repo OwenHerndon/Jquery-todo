@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 body {
-  background-color: black;
-  color: grey; }
+  background-color: white;
+  color: black; }
   body h1 {
     text-align: center; }
 
@@ -9,42 +9,43 @@ body {
   margin-top: 50px;
   width: 50%;
   text-align: center;
-  background-color: grey; }
+  background-color: white; }
 
 #inprogress {
-  border: 2px solid white;
+  border-bottom: 2px solid black;
   border-radius: 10px 10px 10px 10px;
   width: 50%;
-  color: white;
-  background-color: grey; }
+  color: black;
+  background-color: white; }
   #inprogress h3 {
     text-align: center;
-    color: white; }
+    color: black; }
   #inprogress ol {
-    color: white; }
+    color: black; }
 
 #completed {
   margin-top: 5px;
-  border: 2px solid white;
+  border-bottom: 2px solid black;
   border-radius: 10px 10px 10px 10px;
   width: 50%;
-  color: white;
-  background-color: grey; }
+  color: black;
+  background-color: white; }
   #completed h3 {
     text-align: center;
-    color: white; }
+    color: black; }
   #completed ol {
-    color: white; }
+    color: black; }
 
 ol {
-  padding-left: 20px; }
+  padding-left: 20px;
+  margin-bottom: 50px; }
 
 ol li {
   padding: 5px;
-  color: white; }
+  color: black; }
 
 ol li:nth-child(even) {
-  background: grey; }
+  background: white; }
 
 .strike {
   text-decoration: line-through; }
