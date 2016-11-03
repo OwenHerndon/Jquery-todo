@@ -13,6 +13,7 @@ body{
 	width: 50%;
 	text-align:center;
 	background-color: white;
+	background: linear-gradient(to right, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); 
 }
 
 #inprogress{
@@ -49,9 +50,9 @@ body{
 ol {padding-left: 20px;
 	margin-bottom: 50px;}
 
-ol li {padding: 5px;color:black;}
+ol li {padding: 30px;color:black;}
 
-ol li:nth-child(even){background: white;}
+ol li:nth-child(even){background: linear-gradient(to right, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); ;}
 
 .strike{text-decoration: line-through;}
 
@@ -74,3 +75,28 @@ ol li:nth-child(even){background: white;}
 li:hover{
   cursor: pointer;
  }
+
+ol li.editMode input[type=text] {
+ display:inline-block;
+ width: 90%;
+}
+
+ol li.editMode label {
+ display:none;
+}
+  
+.inputTask{
+ display:none;}
+
+
+#logout-container{
+	padding-left: 45%;
+}
+
+// #container{
+// 	display: flex;
+// }
+
+// .box{
+// 	width: 40%;
+// }

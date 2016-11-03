@@ -10,7 +10,19 @@
   	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-<h1>Jquery-toooodooo</h1>
+
+<div class="container col-xs-4 col-xs-offset-4" id="login-container">
+        <h1 class="form-signin-heading">Todo App</h1>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="text" id="inputUsername" class="form-control" placeholder="Username" required>
+        <button class="btn btn-lg btn-success col-xs-6" id="loginButton">Login</button>
+        <button class="btn btn-lg btn-primary col-xs-6" id="registerButton">Register</button>
+</div>
+<div class="hide" id="todo-container">
+
+<h1>ToDo App</h1>
+<div id="logout-container"></div>
 
 <div class="panel panel-default input-nav col-xs-offset-3">
 	<div class="panel-body">
@@ -19,16 +31,22 @@
 	</div>
 </div>
 
-
-	<div class="col-xs-offset-3" id="inprogress">
-		<h3>Task to Do</h3>
-		<ol id="incomplete-task"></ol>
+<div id="container">
+	<div id="draggable" class="ui-widget-content box">
+		<div class="col-xs-offset-3" class="ui-widget-content" id="inprogress">
+			<h3>Task to Do</h3>
+			<ol id="incomplete-task"></ol>
+		</div>
 	</div>
-
-	<div class="col-xs-offset-3" id="completed">
-		<h3>Completed</h3>
-		<ol id="completed-task"></ol>
+	<div id="draggable2" class="ui-widget-content box">
+		<div class="col-xs-offset-3" class="ui-widget-content" id="completed">
+			<h3>Completed</h3>
+			<ol id="completed-task"></ol>
+		</div>
 	</div>
+</div>
+
+</div>
 
 <!-- <script src="external/jquery/jquery.js"></script> -->
 
@@ -42,6 +60,8 @@
 
 <script src="javascripts/firebase.js"></script>
 <script src="javascripts/firebaseMethods.js"></script>
+<script src="javascripts/firebaseAuth.js"></script>
+<script src="javascripts/fbUser.js"></script>
 <script src="javascripts/main.js"></script>
 </body>
 </html>
